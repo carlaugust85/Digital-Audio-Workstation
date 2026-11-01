@@ -1,0 +1,6 @@
+{
+  "name": "Drum Sampler",
+  "description": "Polyphonic stereo drum sampler with real-time C++ audio engine, 4x5 low-latency pad grid, and interactive transient waveform viewer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

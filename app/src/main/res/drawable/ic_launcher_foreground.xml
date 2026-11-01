@@ -1,0 +1,84 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Safe Zone (66dp centered at 54,54 -> [21, 87]) -->
+    <!-- Pad 1: Top Left -->
+    <path
+        android:pathData="M28,28h22v22h-22z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#818CF8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="28"
+                android:endX="50"
+                android:endY="50"
+                android:type="linear">
+                <item android:color="#4F46E5" android:offset="0.0" />
+                <item android:color="#312E81" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Pad 2: Top Right -->
+    <path
+        android:pathData="M58,28h22v22h-22z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#F472B6">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="58"
+                android:startY="28"
+                android:endX="80"
+                android:endY="50"
+                android:type="linear">
+                <item android:color="#DB2777" android:offset="0.0" />
+                <item android:color="#831843" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Pad 3: Bottom Left -->
+    <path
+        android:pathData="M28,58h22v22h-22z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#38BDF8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="58"
+                android:endX="50"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#0284C7" android:offset="0.0" />
+                <item android:color="#0C4A6E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Pad 4: Bottom Right -->
+    <path
+        android:pathData="M58,58h22v22h-22z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#34D399">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="58"
+                android:startY="58"
+                android:endX="80"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#059669" android:offset="0.0" />
+                <item android:color="#064E3B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Dynamic Audio Waveform Overlay across center -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,54 L34,54 L40,36 L46,68 L52,42 L58,62 L64,48 L70,54 L84,54" />
+</vector>
